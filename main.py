@@ -7,7 +7,6 @@ word = words[r].strip()
 l_word = [x for x in word]
 lives = 9
 print('_'*(len(word)))
-print(word)
 guess = ("_"*len(word))
 while lives > 0 and guess!=word:
     inp = input("\nEnter character: ")
